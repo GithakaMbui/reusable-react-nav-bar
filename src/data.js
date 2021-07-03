@@ -1,31 +1,31 @@
 import React from 'react';
-import {FaBehance, FaFacebook, FaLinkedin, FaTwitter} from 'react-icons/fa';
+import {FaBehance, FaFacebook, FaLinkedin, FaTwitter, FaGithub} from 'react-icons/fa';
 
 export const links = [
     {
         id: 1,
         url: '/',
-        text: 'home',
+        text: 'Home',
     },
     {
         id: 2,
         url: '/about',
-        text: 'about',
+        text: 'About',
     },
     {
         id: 3,
         url: '/projects',
-        text: 'projects',
+        text: 'Projects',
     },
     {
         id: 5,
         url: '/services',
-        text: 'home',
+        text: 'Services',
     },
     {
         id: 6,
-        url: '/constact',
-        text: 'contact',
+        url: '/contact',
+        text: 'Contact',
     },
 ]
 
@@ -38,17 +38,18 @@ export const social = [
     {
         id: 2,
         url: 'www.twitter.com',
-        text:<FaTwitter/>,
+        icon :<FaTwitter/>,
     },
     {
         id: 3,
         url: 'www.linkedin.com',
-        text: <FaLinkedin/>,
+        icon: <FaLinkedin/>,
     },
     {
         id: 4,
-        url: 'www.behance.com',
-        text: <FaBehance/>,
+        url: 'www.github.com',
+        icon: <FaGithub/>,
+        
     },
     
 ]
